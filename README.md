@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/Katayath-Sai-Kiran/internet_quality_codespark/master/assets/banner.png" alt="Banner"/>
+
 # internet_quality_codespark
 
 [![pub package](https://img.shields.io/pub/v/internet_quality_codespark.svg)](https://pub.dev/packages/internet_quality_codespark)
@@ -5,7 +7,7 @@
 [![pub points](https://img.shields.io/pub/points/internet_quality_codespark)](https://pub.dev/packages/internet_quality_codespark)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-
+<img src="assets/readme/cover.png" alt="Internet Quality in Flutter" width="100%">
 ---
 
 **Flutter internet quality · Flutter network quality · Internet latency monitoring · Network responsiveness · Internet diagnostics**

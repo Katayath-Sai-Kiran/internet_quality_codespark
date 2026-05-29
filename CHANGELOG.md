@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.0
+- Added banner image to README for better visual appeal on pub.dev
+- Removed long description from pubspec.yaml to improve pub.dev display and SEO
+
 ## 1.2.0
 - Added homepage and issue_tracker fields to pubspec.yaml for pub.dev metadata
 
