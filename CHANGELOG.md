@@ -1,3 +1,8 @@
+# Changelog
+
+## 1.2.0
+- Added homepage and issue_tracker fields to pubspec.yaml for pub.dev metadata
+
 ## 1.1.0
 
 ### Improvements

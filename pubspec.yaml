@@ -3,8 +3,8 @@ description: Measure real-world internet quality in Flutter applications using l
 version: 1.1.0
 
 homepage: https://ksaikiran.dev
-repository: https://github.com/ksaikiran/internet_quality_codespark
-issue_tracker: https://github.com/ksaikiran/internet_quality_codespark/issues
+repository: https://github.com/Katayath-Sai-Kiran/internet_quality_codespark
+issue_tracker: https://github.com/Katayath-Sai-Kiran/internet_quality_codespark/issues
 
 topics:
   - flutter
