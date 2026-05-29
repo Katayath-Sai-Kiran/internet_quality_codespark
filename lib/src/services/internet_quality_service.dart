@@ -18,6 +18,7 @@ class InternetQualityService {
     final socketLatency = results[1];
     final httpLatency = results[2];
 
+    /// If all measurements failed, classify as offline with -1 latencies
     if (dnsLatency == null && socketLatency == null && httpLatency == null) {
       return InternetQualityResult(
         quality: InternetQualityLevel.offline,
@@ -29,6 +30,7 @@ class InternetQualityService {
       );
     }
 
+    /// Calculate average latency from valid measurements
     final validLatencies = [
       dnsLatency,
       socketLatency,
@@ -40,6 +42,7 @@ class InternetQualityService {
 
     final quality = QualityCalculator.classify(averageLatency);
 
+    /// Return a detailed result with all measurements and the calculated quality
     return InternetQualityResult(
       quality: quality,
       dnsLatencyMs: dnsLatency ?? -1,

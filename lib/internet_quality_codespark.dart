@@ -1,4 +1,4 @@
-library internet_quality_codespark;
+library;
 
 export 'src/internet_quality.dart';
 
