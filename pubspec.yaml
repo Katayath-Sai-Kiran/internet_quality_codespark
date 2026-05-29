@@ -1,0 +1,48 @@
+name: internet_quality_codespark
+description: Measure real-world internet quality in Flutter applications using latency-based analysis. Classify network responsiveness into Excellent, Good, Poor, Very Poor, or Offline with zero external dependencies.
+version: 1.0.0
+
+homepage: https://ksaikiran.dev
+repository: https://github.com/ksaikiran/internet_quality_codespark
+issue_tracker: https://github.com/ksaikiran/internet_quality_codespark/issues
+
+topics:
+  - flutter
+  - internet
+  - networking
+  - connectivity
+  - utility
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+assets:
+  - screenshots/
+
+
+screenshots:
+  - description: Detailed quality report with answers overlay
+    path: assets/screenshots/detailed_quality_report_with_answers.png
+
+  - description: Basic internet quality check (Excellent/Good/Poor)
+    path: assets/screenshots/check_internet_quality.png
+
+  - description: Full detailed quality report (latency breakdown)
+    path: assets/screenshots/detailed_quality_report.png
+
+  - description: Get current average latency (ms)
+    path: assets/screenshots/get_latenncy_report.png
+
+  - description: Monitor internet quality stream (live logs)
+    path: assets/screenshots/monitor_logs.png
