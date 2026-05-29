@@ -420,6 +420,6 @@ https://github.com/Katayath-Sai-Kiran/internet_quality_codespark
 
 MIT License
 
-Copyright (c) 2026 K Sai Kiran
+Copyright (c) 2026 Katayath Sai Kiran
 
 See the LICENSE file for details.
